@@ -11,7 +11,7 @@ describe Announcement do
     it "should not save" do
       FactoryGirl.create(:announcement)
       announcement = FactoryGirl.build(:announcement)
-      expect(announcement.save).to eq(false) 
+      expect(announcement.save).to eq(false)
     end
   end
 
